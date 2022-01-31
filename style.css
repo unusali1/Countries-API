@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: azure;
+    
+}
+.container1{
+    width: 100%;
+    padding: 15px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); 
+    text-align: center;
+    background-color: #2980b9;
+   
+}
+.container1 h1{
+    text-align: center;
+}
+.container{
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+   
+    
+}
+
+.button{
+    outline: none;
+    border: 0;
+    background: transparent;
+}
+
+.from-control{
+    width: 400px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+    
+.from-control input{
+    width: 100%;
+    padding: 17px 14px;
+    outline: 0;
+    border: 0;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+}
+.from-control i{
+    position: absolute;
+    top: 7.5rem;
+    left: 23rem;
+    cursor: pointer;
+
+}
+i{
+    cursor: pointer;
+}
+.dropdowncon{
+    width: 30%;
+    padding: 17px 14px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    font-size: 15px;
+}
+.dropdown{
+    letter-spacing: 0.5px;
+}
+.dropdown i{
+    position: absolute;
+    top: 7rem;
+    right: 3rem;
+    cursor: pointer;
+
+}
+.drop{
+    position: absolute;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    top: 10rem;
+    padding: 10px 14 px;
+    width: 25%;
+    border-radius: 5px;
+    background: var(--bgColor);
+    
+}
+.drop p{
+    margin: 5px 0;
+}
+.countries{
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    grid-gap: 20px;
+}
+.country{
+    min-height: 350px;
+    box-shadow:0 0 5px rgba(0, 0, 0, 0.3);
+    width: 300px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.country-img{
+    height: 250px;
+}
+.country-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.country-info{
+    padding: 20px 17px;
+}
+.country-info h5{
+    padding: 10px 0;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.country-info p{
+    letter-spacing: 1px;
+}
+.country-info p>strong{
+    font-weight: 600;
+}
+.showDropDown{
+    display: none;
+}
